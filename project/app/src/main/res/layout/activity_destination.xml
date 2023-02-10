@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/LinearLayoutCompat"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".DestinationActivity">
+
+<TextView
+    android:id="@+id/city_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20sp"
+    android:fontFamily="sans-serif-medium"
+    android:text="City"
+    android:textColor="#FF8692F7"
+    android:textSize="50dp"
+    android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20sp"
+
+    >
+<TextView
+    android:id="@+id/country_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Country"
+    android:textSize="20sp"
+    android:layout_marginLeft="40sp"
+    android:layout_marginRight="20sp"
+    />
+<TextView
+    android:id="@+id/continent_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Continent"
+    android:textSize="20sp"
+    android:layout_marginLeft="40sp"
+    android:layout_marginRight="20sp"
+    />
+<TextView
+    android:id="@+id/cost_detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="cost"
+    android:textSize="20sp"
+    android:layout_marginLeft="40sp"
+    android:layout_marginRight="20sp"
+    />
+</LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+<ToggleButton
+    android:id="@+id/attachDesc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textOff="Show Description"
+    android:textOn="Hide Description"
+    android:layout_weight="1"
+    android:textAllCaps="false"/>
+
+
+<ToggleButton
+    android:id="@+id/attachImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textOff="Show Image"
+    android:textOn="Hide Image"
+    android:layout_weight="1"
+    android:textAllCaps="false"/>
+
+<ToggleButton
+    android:id="@+id/attachMap"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textOn="Show Location"
+    android:textOff="Show Location"
+    android:layout_weight="1"
+    android:textAllCaps="false"
+    />
+</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
+

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Deema_Hamed_1180200" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryDark">@color/lavender</item>
+
+        <item name="colorAccent">@color/lavender</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
